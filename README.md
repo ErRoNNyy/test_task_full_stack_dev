@@ -2,15 +2,6 @@
 
 A fullstack web application that allows users to interact with AI through a beautiful, minimalist interface.
 
-## Features
-
-- ✅ **Text Input**: Send text messages to AI API
-- ✅ **Real-time Responses**: Display AI responses on screen
-- ✅ **Loading Indicator**: Visual feedback while waiting for API response
-- ✅ **Error Handling**: Comprehensive error handling at all stages
-- ✅ **Modern UI**: Dark blue minimalist design with smooth animations
-- ✅ **Flexible API**: Supports Groq (free), OpenAI, and other compatible APIs
-
 ## Tech Stack
 
 - **Frontend**: React 19 + Vite + Tailwind CSS 4
@@ -105,8 +96,6 @@ Send a message to AI and receive a response.
 | Provider | Free Tier | API URL |
 |----------|-----------|---------|
 | **Groq** | ✅ Yes | `https://api.groq.com/openai/v1/chat/completions` |
-| OpenAI | ❌ Paid | `https://api.openai.com/v1/chat/completions` |
-| Together AI | ✅ Yes | `https://api.together.xyz/v1/chat/completions` |
 
 ## Project Structure
 
@@ -125,7 +114,3 @@ Send a message to AI and receive a response.
 │   └── package.json
 └── README.md
 ```
-
-## License
-
-MIT
